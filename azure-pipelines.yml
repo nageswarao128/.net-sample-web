@@ -15,6 +15,9 @@ variables:
 
 steps:
 
+- script: echo $(myhello) # uses macro syntax
+- script: echo $(my-passed-variable) 
+
 - task: DotNetCoreCLI@2
   inputs:
     command: run
