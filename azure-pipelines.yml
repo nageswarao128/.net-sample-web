@@ -8,7 +8,10 @@ pool:
   vmImage: 'ubuntu-latest'
 
 variables:
-  BuildConfiguration: Release
+- group: my-variable-group
+- name: my-bare-variable
+  value: 'value of my-bare-variable'
+
 
 steps:
 
