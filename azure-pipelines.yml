@@ -9,8 +9,8 @@ pool:
 
 variables:
 - group: my-variable-group
-- name: my-bare-variable
-  value: 'value of my-bare-variable'
+- name: my-passed-variable
+  value: $[variables.myhello]
 
 
 steps:
