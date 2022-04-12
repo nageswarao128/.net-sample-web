@@ -8,7 +8,7 @@ pool:
   vmImage: 'ubuntu-latest'
 
 variables:
-- group: my-variable-group
+- group: New variable
 - name: my-passed-variable
   value: $[variables.myhello]
 
