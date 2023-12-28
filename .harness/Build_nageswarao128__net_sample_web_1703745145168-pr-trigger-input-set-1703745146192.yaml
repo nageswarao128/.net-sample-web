@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_nageswarao128__net_sample_web_1703745145168-pr-trigger-input-set
+  identifier: Build_nageswarao128__net_sample_web_1703745145168prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_nageswarao128__net_sample_web_1703745145168
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
